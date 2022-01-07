@@ -313,3 +313,12 @@ def is_prime(num):
     return True
 
 # Test function with random input: 62
+
+# Update: 2022-01-07 11:59:18
+def calculate_fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+
+# Test function with random input: 45
