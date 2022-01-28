@@ -353,3 +353,9 @@ def sort_algorithm(arr):
     return sorted(arr, key=lambda x: (x % 2, x))
 
 # Test function with random input: 92
+
+# Update: 2022-01-28 17:42:02
+def sort_algorithm(arr):
+    return sorted(arr, key=lambda x: (x % 2, x))
+
+# Test function with random input: 4
