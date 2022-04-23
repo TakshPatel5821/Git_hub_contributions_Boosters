@@ -415,3 +415,9 @@ def calculate_fibonacci(n):
     return a
 
 # Test function with random input: 90
+
+# Update: 2022-04-23 10:44:24
+def sort_algorithm(arr):
+    return sorted(arr, key=lambda x: (x % 2, x))
+
+# Test function with random input: 67
