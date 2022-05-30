@@ -322,3 +322,19 @@ def calculate_fibonacci(n):
     return a
 
 # Test function with random input: 45
+
+# Update: 2022-05-30 05:15:56
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+def create_linked_list(values):
+    head = Node(values[0])
+    current = head
+    for val in values[1:]:
+        current.next = Node(val)
+        current = current.next
+    return head
+
+# Test function with random input: 70
