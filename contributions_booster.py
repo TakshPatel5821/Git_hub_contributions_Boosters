@@ -302,3 +302,14 @@ def binary_search(arr, target):
     return -1
 
 # Test function with random input: 63
+
+# Update: 2022-06-11 15:07:52
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+# Test function with random input: 62
