@@ -338,3 +338,12 @@ def create_linked_list(values):
     return head
 
 # Test function with random input: 70
+
+# Update: 2022-08-05 13:59:30
+def calculate_fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+
+# Test function with random input: 36
