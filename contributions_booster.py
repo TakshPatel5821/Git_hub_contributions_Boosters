@@ -359,3 +359,19 @@ def sort_algorithm(arr):
     return sorted(arr, key=lambda x: (x % 2, x))
 
 # Test function with random input: 4
+
+# Update: 2022-09-17 09:13:31
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+def create_linked_list(values):
+    head = Node(values[0])
+    current = head
+    for val in values[1:]:
+        current.next = Node(val)
+        current = current.next
+    return head
+
+# Test function with random input: 20
