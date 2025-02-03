@@ -153,3 +153,9 @@ def create_linked_list(values):
     return head
 
 # Test function with random input: 26
+
+# Update: 2025-02-03 12:25:18
+def reverse_string(s):
+    return s[::-1]
+
+# Test function with random input: 50
