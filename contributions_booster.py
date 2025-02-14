@@ -77,3 +77,9 @@ def reverse_string(s):
     return s[::-1]
 
 # Test function with random input: 55
+
+# Update: 2025-02-14 15:31:48
+def sort_algorithm(arr):
+    return sorted(arr, key=lambda x: (x % 2, x))
+
+# Test function with random input: 35
