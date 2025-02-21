@@ -56,3 +56,9 @@ def calculate_mean(numbers):
     return sum(numbers) / len(numbers)
 
 # Test function with random input: 98
+
+# Update: 2025-02-21 09:02:47
+def sort_algorithm(arr):
+    return sorted(arr, key=lambda x: (x % 2, x))
+
+# Test function with random input: 16
