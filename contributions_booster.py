@@ -44,3 +44,9 @@ subprocess.run(["git", "branch", "-M", "main"])
 subprocess.run(["git", "push", "-u", "origin", "main"])
 
 print("GitHub contribution commits added successfully!")
+
+# Update: 2025-02-21 08:50:54
+def sort_algorithm(arr):
+    return sorted(arr, key=lambda x: (x % 2, x))
+
+# Test function with random input: 63
