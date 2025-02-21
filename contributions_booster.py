@@ -62,3 +62,12 @@ def sort_algorithm(arr):
     return sorted(arr, key=lambda x: (x % 2, x))
 
 # Test function with random input: 16
+
+# Update: 2025-02-21 09:02:53
+def calculate_fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+
+# Test function with random input: 79
