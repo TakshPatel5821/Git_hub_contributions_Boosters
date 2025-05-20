@@ -217,3 +217,9 @@ def create_linked_list(values):
     return head
 
 # Test function with random input: 14
+
+# Update: 2025-05-20 12:26:37
+def calculate_mean(numbers):
+    return sum(numbers) / len(numbers)
+
+# Test function with random input: 41
