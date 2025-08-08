@@ -189,3 +189,9 @@ def binary_search(arr, target):
     return -1
 
 # Test function with random input: 63
+
+# Update: 2025-08-08 13:13:05
+def calculate_mean(numbers):
+    return sum(numbers) / len(numbers)
+
+# Test function with random input: 11

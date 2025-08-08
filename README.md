@@ -11,6 +11,7 @@ This repository contains various coding exercises and algorithm implementations 
 
 | Date | Contributions |
 |------|---------------|
+| 2025-08-08 | 4 |
 | 2025-08-06 | 1 |
 | 2025-11-21 | 3 |
 | 2025-02-03 | 5 |
