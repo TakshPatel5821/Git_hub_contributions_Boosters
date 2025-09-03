@@ -137,3 +137,19 @@ def create_linked_list(values):
     return head
 
 # Test function with random input: 47
+
+# Update: 2025-09-02 19:04:39
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+def create_linked_list(values):
+    head = Node(values[0])
+    current = head
+    for val in values[1:]:
+        current.next = Node(val)
+        current = current.next
+    return head
+
+# Test function with random input: 26
