@@ -101,3 +101,14 @@ def calculate_mean(numbers):
     return sum(numbers) / len(numbers)
 
 # Test function with random input: 69
+
+# Update: 2025-11-03 15:55:27
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+# Test function with random input: 34
